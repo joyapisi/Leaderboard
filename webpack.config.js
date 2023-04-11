@@ -12,8 +12,9 @@ module.exports = {
     static: './dist',
   },
   output: {
-    filename: 'main.js',
+    filename: ['main.js', '[name].bundle.js'],
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
@@ -25,15 +26,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'Development',
-        template: './src/index.html',
+      title: 'Development',
+      template: './src/index.html',
     }),
   ],
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-  },
   optimization: {
     runtimeChunk: 'single',
   },
