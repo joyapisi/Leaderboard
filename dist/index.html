@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script><script defer src="print.bundle.js"></script></head>
+<body>
+    <header></header>
+  
+    <section class="leaderboard" id="leaderboard">
+      <h1 class="leaderboard-topic" id="leaderboard-topic">Leaderboard</h1>
+      
+      <section class="leaderboard-body">
+   
+      <article class="recent-scores" id="recent-scores">
+        <div class="heading">
+          <h3 class="recent-scores-topic">Recent Scores</h3>
+          <button type="button" id="refresh-btn">Refresh</button>
+        </div>
+        <div class="scores-list">
+          <!-- to be rendered dynamically -->
+          <div class="scores-container">
+            <!-- <h3 id ="name" class="name">Name: 100</h3>
+            <h3 id ="name" class="name">Name: 20</h3> -->
+            </div>
+          </div>
+      </article>
+      
+      <article class="add-score-section" id="add-score-section">
+        <h3 class="add-score-title">Add Your Score</h3>
+        <form class="add-score-form">
+          <input type="text" placeholder="Name" id="name" class="local-storage">
+          <input type="text" placeholder="Score" id="score" class="local-storage">
+          <button type="submit" id="submit-score-btn">Submit</button>
+        </form>
+      </article>
+    </section>
+  
+  </body>
+</html>
