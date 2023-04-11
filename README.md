@@ -1,6 +1,6 @@
-# To Do List
+# Leaderboard
 
-HTML, CSS and JavaScript Awesome Books Project
+HTML, CSS and JavaScript Leaderboard Project
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -25,9 +25,9 @@ HTML, CSS and JavaScript Awesome Books Project
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [To_Do_List] <a name="To DO List"></a>
+# 📖 [Leaderboard] <a name="Leaderboard"></a>
 
-**[To_Do_List]** is a simple a simple web page that sisplays a list of To Do tasks. It is built using webpack and served by a webpack dev server.
+**[Leaderboard]** is a simple a simple web page that displays a list of names and the makrks scored by the individuals. It is built using webpack and served by a webpack dev server. This project also follows Gitflow
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,7 +38,7 @@ HTML, CSS and JavaScript Awesome Books Project
     <li><a href="https://nodejs.org/en/">Node JS</a></li>
   </ul>
 
-  <summary>JS Packages</summary>
+  <summary>Javascript Packages</summary>
   <ul>
     <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">webpack</a></li>
   </ul>
@@ -51,6 +51,7 @@ HTML, CSS and JavaScript Awesome Books Project
 
 ### Key Features <a name="key-features"></a>
 
+- **[Gitflow]**
 - **[Webpack]**
 - **[Desktop-Version]**
 - **[Dynamic-Design]**
@@ -61,9 +62,8 @@ HTML, CSS and JavaScript Awesome Books Project
 
 Coming soon!
 
-## 🚀 Live Demo <a href="https://joyapisi.github.io/To-Do-List/" name="live-demo">Live Demo</a>
+## 🚀 Live Demo <a href="https://joyapisi.github.io/Leaderboard/" name="live-demo">Live Demo</a>
 
-Coming Soon!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

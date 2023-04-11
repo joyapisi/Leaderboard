@@ -1,15 +1,10 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
+import Scores from './modules/scores.js';
 
-// function component() {
-//   const element = document.createElement('div');
+const AllScores = new Scores();
+const addScoreBtn = document.getElementById('submit-score-btn');
 
-//   // Lodash, now imported by this script
-//   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-//   element.classList.add('hello');
-
-//   return element;
-// }
-
-// document.body.appendChild(component());
-
+addScoreBtn.addEventListener('click', () => {
+  AllScores.addScores();
+});
