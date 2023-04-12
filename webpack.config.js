@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -12,9 +13,8 @@ module.exports = {
     static: './dist',
   },
   output: {
-    filename: ['main.js', '[name].bundle.js'],
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
   },
   module: {
     rules: [
@@ -26,10 +26,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Development',
-      template: './src/index.html',
+        title: 'Development',
+        template: './src/index.html',
     }),
   ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
   optimization: {
     runtimeChunk: 'single',
   },
