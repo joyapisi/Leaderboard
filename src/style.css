@@ -82,14 +82,8 @@ button {
 }
 
 .scores-container {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
   justify-content: space-between;
   width: 100%;
-}
-
-.name {
-  text-align: start;
 }
 
 #each-score {
