@@ -1,14 +1,14 @@
-// import _ from 'lodash';
 import './style.css';
-import fetchScores from './modules/getScores.js';
+import getScores from './modules/getScores.js';
 import displayScores from './modules/displayScores.js';
 import createNewScore from './modules/createNewScore.js';
 
 const submitNewScore = document.getElementById('submit-score-btn');
+const refreshBtn = document.getElementById('refresh-btn');
 
 window.onload = async () => {
-  fetchScores();
-  const data = await fetchScores();
+  getScores();
+  const data = await getScores();
   displayScores(data);
 };
 
@@ -20,15 +20,14 @@ submitNewScore.addEventListener('click', async (e) => {
     await createNewScore(user.value, score.value);
     user.value = '';
     score.value = '';
-    await fetchScores();
-    const data = await fetchScores();
+    await getScores();
+    const data = await getScores();
     displayScores(data);
   }
 });
 
-// const AllScores = new Scores();
-// const addScoreBtn = document.getElementById('submit-score-btn');
-
-// addScoreBtn.addEventListener('click', () => {
-//   AllScores.addScores();
-// });
+refreshBtn.addEventListener('click', async () => {
+  window.location.reload();
+  const data = await getScores();
+  displayScores(data);
+});

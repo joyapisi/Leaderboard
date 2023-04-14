@@ -21,10 +21,13 @@ h3 {
 }
 
 button {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 60px;
   border: 2px solid #000;
   box-shadow: 1px 1px 2px #000;
+  cursor: pointer;
+  padding: 2px 2px;
 }
 
 .leaderboard {
@@ -79,20 +82,10 @@ button {
 }
 
 .scores-container {
-  /* align-self:; */
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  padding: 5px 0;
-
-  /* padding-left: 30px; */
   justify-content: space-between;
-
-  /* gap: 75%; */
   width: 100%;
-}
-
-.scores-container:nth-child(odd) {
-  background-color: rgb(238, 236, 234);
 }
 
 .name {
@@ -102,6 +95,14 @@ button {
 #each-score {
   text-align: left;
   padding: 5px 0 5px 15px;
+}
+
+#each-score:nth-child(2n+1) {
+  background-color: rgb(224, 223, 222);
+}
+
+#each-score:hover {
+  cursor: pointer;
 }
 
 .book-btn {
@@ -142,15 +143,3 @@ form input {
   border: 2px solid #000;
   box-shadow: 1px 1px 2px #000;
 }
-
-/* @media screen and (min-width:768px) {
-  .heading {
-    gap: 90%;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .heading {
-    gap: 90%;
-  }
-} */
