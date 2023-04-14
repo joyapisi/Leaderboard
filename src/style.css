@@ -83,9 +83,10 @@ button {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   padding: 5px 0;
- 
+
   /* padding-left: 30px; */
   justify-content: space-between;
+
   /* gap: 75%; */
   width: 100%;
 }
