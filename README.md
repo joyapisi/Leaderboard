@@ -27,7 +27,7 @@ HTML, CSS and JavaScript Leaderboard Project
 
 # 📖 [Leaderboard] <a name="Leaderboard"></a>
 
-**[Leaderboard]** is a simple a simple web page that displays a list of names and the makrks scored by the individuals. It is built using webpack and served by a webpack dev server. This project also follows Gitflow
+**[Leaderboard]** is a simple web page that uses the <a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API </a>. It allows a user to send and receive data from the API by inserting the name and scores of a given individual through the input form. It also displays the list of input names and scores by the user. This project is built using webpack and served by a webpack dev server. It also follows <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow.</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,6 +51,7 @@ HTML, CSS and JavaScript Leaderboard Project
 
 ### Key Features <a name="key-features"></a>
 
+- **[Leaderboard_API]**
 - **[Gitflow]**
 - **[Webpack]**
 - **[Desktop-Version]**
@@ -248,6 +249,6 @@ I'm thankful to Microverse for providing a study platform which guided me throug
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](./LICENSE.txt) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
