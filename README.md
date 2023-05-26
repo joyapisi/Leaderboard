@@ -27,7 +27,7 @@ HTML, CSS and JavaScript Leaderboard Project
 
 # 📖 [Leaderboard] <a name="Leaderboard"></a>
 
-**[Leaderboard]** is a simple a simple web page that displays a list of names and the makrks scored by the individuals. It is built using webpack and served by a webpack dev server. This project also follows Gitflow
+**[Leaderboard]** is a simple a simple web page that displays a list of names and the marks scored by the individuals. It is built using webpack and served by a webpack dev server. This project also follows Gitflow
 
 ## 🛠 Built With <a name="built-with"></a>
 
