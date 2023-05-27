@@ -62,8 +62,8 @@ HTML, CSS and JavaScript Leaderboard Project
 
 Coming soon!
 
-## 🚀 Live Demo <a href="https://joyapisi.github.io/Leaderboard/" name="live-demo">Live Demo</a>
-
+## 🚀 Live Demo <a name="live-demo"></a>
+[Live Demo](https://joyapisi.github.io/Leaderboard/dist/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
